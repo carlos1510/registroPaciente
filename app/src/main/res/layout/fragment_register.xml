@@ -213,7 +213,7 @@
 
                 <TextView
                     android:id="@+id/textView13"
-                    android:layout_width="182dp"
+                    android:layout_width="192dp"
                     android:layout_height="wrap_content"
                     android:text="N° de Suplemento:" />
 
@@ -249,10 +249,10 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnCamara"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tomar Foto"
+                android:text="@string/btnCamara"
                 app:backgroundTint="#3F51B5"
                 app:icon="@drawable/ic_menu_camera" />
 

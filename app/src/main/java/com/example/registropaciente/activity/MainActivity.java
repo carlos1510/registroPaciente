@@ -1,16 +1,9 @@
 package com.example.registropaciente.activity;
 
 import android.Manifest;
-import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.location.Location;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.MediaStore;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,16 +14,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-import androidx.core.content.FileProvider;
 
 import com.example.registropaciente.R;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-
-import java.io.File;
-import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -50,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         lat = findViewById(R.id.edLatitud);
         lon = findViewById(R.id.edLongitud);
         btnCoordenadas = findViewById(R.id.btnCoordenadas);
-        btnCamara = findViewById(R.id.btnCamara);
-        imgView = findViewById(R.id.imageView);
+        btnCamara = findViewById(R.id.btnCamara1);
+        imgView = findViewById(R.id.imageView2);
 
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
 
@@ -66,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         btnCamara.setOnClickListener(new View.OnClickListener(){
            @Override
            public void onClick(View view){
-               abrirCamara();
+               //abrirCamara();
            }
         });
 
@@ -169,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }*/
 
-    private  void abrirCamara(){
+    /*private  void abrirCamara(){
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         //if (intent.resolveActivity(getPackageManager()) != null){
 
@@ -206,5 +195,5 @@ public class MainActivity extends AppCompatActivity {
 
         rutaImagen = imagen.getAbsolutePath();
         return imagen;
-    }
+    }*/
 }
