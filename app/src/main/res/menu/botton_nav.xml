@@ -5,10 +5,10 @@
         android:icon="@drawable/ic_menu_home" />
 
     <item android:id="@+id/bottom_2"
-        android:title="button2"
-        android:icon="@drawable/ic_menu_home" />
+        android:title="Visita"
+        android:icon="@drawable/ic_menu_registro_visita" />
 
     <item android:id="@+id/bottom_3"
-        android:title="button3"
-        android:icon="@drawable/ic_menu_home" />
+        android:title="Lista"
+        android:icon="@drawable/ic_menu_lista" />
 </menu>
