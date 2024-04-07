@@ -5,11 +5,17 @@
       <map>
         <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/activity_inicio.xml" value="0.22735507246376813" />
         <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
+        <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/app_bar_inicio.xml" value="0.3625" />
+        <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/content_inicio.xml" value="0.3625" />
         <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/fragment_gallery.xml" value="0.18541666666666667" />
         <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/fragment_home.xml" value="0.18541666666666667" />
         <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/fragment_list.xml" value="0.5" />
+        <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/fragment_register.xml" value="0.3625" />
+        <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/fragment_tab_three.xml" value="0.18541666666666667" />
+        <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/list_item.xml" value="0.1" />
         <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/layout/nav_header_inicio.xml" value="0.18541666666666667" />
         <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/DESARROLLO/Android/registroPaciente/app/src/main/res/menu/botton_nav.xml" value="0.2111111111111111" />
         <entry key="..\:/Users/carlo/AndroidStudioProjects/RegistroPaciente/app/src/main/res/layout/activity_inicio.xml" value="0.1" />
         <entry key="..\:/Users/carlo/AndroidStudioProjects/RegistroPaciente/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/carlo/AndroidStudioProjects/RegistroPaciente/app/src/main/res/layout/content_inicio.xml" value="0.1" />
